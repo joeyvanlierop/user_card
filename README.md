@@ -1,3 +1,3 @@
-# user_card
+# User Card
 
-A minimalistic user card created in Flutter.
+A themeable user card created in Flutter.
