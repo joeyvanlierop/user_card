@@ -40,6 +40,7 @@ class UserCard extends StatelessWidget {
         statusBarColor: Colors.transparent,
       ),
       child: new MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: Scaffold(
           backgroundColor: theme.backgroundColor,
           body: SafeArea(
@@ -83,14 +84,14 @@ class UserCard extends StatelessWidget {
                     number,
                     theme.primaryColorDark,
                     theme.cardColor,
-                    () => launch("tel:$number"),
+                        () => launch("tel:$number"),
                   ),
                   InfoButton(
                     Icons.mail_outline,
                     email,
                     theme.primaryColorDark,
                     theme.cardColor,
-                    () => launch("mailto:$email"),
+                        () => launch("mailto:$email"),
                   ),
                 ],
               ),
