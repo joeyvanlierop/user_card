@@ -1,5 +1,5 @@
 name: user_card
-description: A themeable user card created in Flutter.
+description: A customizable user card created in Flutter.
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
